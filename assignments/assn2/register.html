@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/man.css" />  
+    <title>register</title>
+  </head>
+  <body>
+    <header>
+        <img src="img/logo1.png " alt="reload" width="100" height="100">
+        <h1>STACKS BOOKSTORE</h1>
+      </header>
+      <p></p>
+        
+
+        <form action="/register.php">
+            <div class="container">
+              <h2>Register</h2>
+              <p>Please fill in the below to craete your account.</p>
+              <hr>
+              
+              <p><label for="username"><b>username</b></label></p>
+              <input type="text" placeholder="Enter username" name="username" id="username" required>
+
+              <p><label for="email"><b>Email</b></label></p>
+              <input type="text" placeholder="Enter Email" name="email" id="email" required>
+          
+              <p><label for="password"><b>Password</b></label></p>
+              <input type="password" placeholder="Enter Password" name="password" id="password" required>
+          
+              <p><label for="re-enter_password"><b>Re-enter Password</b></label></p>
+              <input type="password" placeholder="Re-enter_Password" name="re-enter_password" id="re-enter_password" required>
+              <hr>
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          
+              <button type="submit" class="registerbtn">Register</button>
+            </div>
+            
+            <div class="container signin">
+              <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+            </div>
+          </form>
+    
+    <footer>
+        <span> © 2023 - Stack bookstore<br></span>  
+      </footer>  
+  </body>
+</html>

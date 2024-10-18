@@ -1,0 +1,165 @@
+/*editing body layout*/
+body{
+  padding-left: 50px;
+  padding-right: 50px;
+  background: linear-gradient(to top, #99ccff 0%, #66ff99 100%)
+}
+
+/*adding heading colors*/
+h1,h2,h3,h4,h5{
+    color: black;
+  }
+
+/*Main heading different font styling*/s
+h1{
+  font-family:'Courier New', Courier, monospace;
+  color: darkblue;
+  
+}
+/*eaditing header*/
+header{
+  border: 10px double black;
+  
+}
+/* Bordered form */
+form {
+  border: 10px double black;
+  padding-left: 20px;
+}
+/*formating text*/
+p{
+    color: black;
+    font-size: large;
+}
+/*editing all input types*/
+input{
+ width: 95%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+/*adding hover effects to all input types*/
+input:hover{
+  background-color: black;
+ color: white;
+  width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+ 
+/*editing all selectors*/
+select{
+  background-color: white;
+  color: black;
+ width: 95%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+/*adding hover effect on selectors*/
+select:hover{
+  background-color: black;
+ color: white;
+ width: 95%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+/* textarea input text color and its border */
+textarea{
+  background-color: white;
+  color: black;
+ width: 95%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+/*text are input hover effect*/
+textarea:hover{
+  background-color: black;
+ color: white;
+ width: 95%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+/*specific editting for input type=submit*/
+input[type=submit]{
+  background-color: black;
+ color: white;
+  width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+/*adding hover effect to the specific input type=submit*/
+ input[type=submit]:hover{
+  background-color: white;
+ color: black;
+  width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+
+/*editing all buttons*/
+button{
+  background-color: black;
+ color: white;
+ width: 95%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+/*adding hover effect on buttons*/
+button:hover{
+  background-color: white;
+  color: black;
+ width: 95%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+/*specific editting for input type checkbox otherwise checkbox was floating in the middle of the page*/
+input[type=checkbox]{
+  width: 1%;
+  
+ }
+
+ /*making links to look like buttons*/
+
+a:link{
+  background-color: black;
+ color: white;
+ width: 20%;
+ padding: 10px;
+}
+/*adding hover effects to links like buttons*/
+a:hover{
+  background-color: white;
+  color: black;
+ width: 20%;
+ padding: 10px;
+}
+/*showing visited links in different text color*/
+a:visited{
+  background-color: black;
+ color: red;
+ width: 20%;
+ padding: 10px;
+}
+
+/* When errors are visible they should be red and have a margin around them */
+.error {
+  color: red;
+  display: block;
+  margin: 0.5em;
+}
+
+
+/* make the error disappear */
+.hidden {
+  display: none;
+}
+
+form label,
+legend {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  margin-bottom: 0.5em;
+}

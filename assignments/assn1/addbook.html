@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add book</title>
+  </head>
+  <body>
+    <header>
+        <img src="img/logo1.png " alt="reload" width="180" height="200">
+        <h1>stacks bookstore</h1>
+        
+
+        <form action="/register.php">
+          <p><label for="bookTitle"><b>book title</b></label></p>
+          <input type="text" placeholder="book title" name="bookTitle" id="bookTitle" required>
+            
+          <p><label for="authorname"><b>Authors name</b></label></p>
+          <input type="text" placeholder="authorname" name="authorname" id="authorname" required>
+
+          <p><label for="rating">Rating (between 1 and 5):</label></p>
+          <input type="range" id="rating" name="rating" min="1" max="5">
+
+          <label for="Genre">Genre:</label>
+          <select name="Genre" id="Genre">
+          <option value="fiction">fiction</option>
+          <option value="novel">novel</option>
+          <option value="narrative">narrative</option>
+          </select>
+
+          <label for="pubDate">Publication date:</label>
+          <input type="date" id="pubDate" name="pubDate">
+
+          <p><label for="ISBN">Enter 13 digit ISBN number</label></p>
+          <input type="text" id="ISBN" name="ISBN" maxlength="13"><br><br>
+          
+          <p><label for="description">Description</label></p>
+          <textarea id="description" name="description" rows="4" cols="50"></textarea>
+
+          <p><label for="format">Select book format:</label></p>
+          <select name="format" id="format">
+          <option value="hardcover">hardcover</option>
+          <option value="paperback">paperback</option>
+          <option value="Epub">Epub</option>
+          <option value="mobi">mobi</option>
+          <option value="PDF">PDF</option>
+          </select>
+          
+
+          <p>select file for cover img</p>
+          <input type="file" id="myFile" name="filename">
+          <input type="submit">
+          <p>select Ebook file to upload</p>
+          <input type="file" id="EFile" name="filename">
+          <input type="submit">
+          
+        </form>
+    </header>
+    <footer>
+      <span> © 2023 - Stack bookstore<br></span>
+    </footer> 
+  </body>
+</html>
